@@ -4,6 +4,7 @@ import { CoursesComponent } from './courses.component';
 
 
 import { AppComponent } from './app.component';
+import { CourseComponent } from './course/course.component';
 
 
 // This is another decorator class
@@ -12,7 +13,8 @@ import { AppComponent } from './app.component';
   declarations: [
     // Add all components here
     AppComponent,
-    CoursesComponent
+    CoursesComponent,
+    CourseComponent
   ],
   imports: [
     BrowserModule

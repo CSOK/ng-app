@@ -9,6 +9,7 @@ export class CourseComponent implements OnInit {
 
   constructor() { }
 
+  // Interface - to be looked later
   ngOnInit() {
   }
 

@@ -12,6 +12,14 @@ import { Component } from '@angular/core';
             </li>
         </ul>
         ` // Interpolation - Special syntax to render something dynamically
+
+        /**
+         * Property binding is another way to communicate with the DOM but works in one way only.
+         * 
+         * Syntax is:
+         * 
+         * <h2 [textContent]="title"></h2>
+         */
 })
 
 export class CoursesComponent{
